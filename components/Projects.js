@@ -8,9 +8,9 @@ import Link from 'next/link'
 
 const Projects = () => {
   return (
-    <>
+    <section id='projects' className='my-16 overflow-hidden'>
         <h1 className='mb-10 text-center font-bold text-2xl'>Projects</h1>
-         <div className='grid grid-cols-1 gap-3 px-2 md:grid-cols-3 '>
+         <div className='grid grid-cols-1 gap-3 px-2 md:grid-cols-4 '>
             <div className='w-[350px] mx-auto shadow-lg border rounded-xl overflow-hidden md:w-full'>
                 <Image src={snakeImg} className='object-cover'/>
                 <div className='px-2'>
@@ -72,7 +72,7 @@ const Projects = () => {
          </div>
  
 
-    </>
+    </section>
   )
 }
 

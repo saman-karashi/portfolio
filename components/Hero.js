@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Hero = () => {
   return (
-    <>
+    <section className="flex flex-row justify-center items-center flex-wrap md:flex-nowrap md:justify-between">
     <div className='md:order-1 md:basis-[70%]'>
         <Image src={heroImage}  className="object-cover w-[100%] h-[100%]" />
     </div> 
@@ -22,7 +22,7 @@ const Hero = () => {
         </button>
         </Link>
     </div> 
-    </>
+    </section>
   )
 }
 
