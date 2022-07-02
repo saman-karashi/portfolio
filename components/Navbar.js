@@ -9,7 +9,7 @@ const [isOpen,setIsOpen] = useState(false);
 return (
    <header className='bg-blue-400'>
     <nav className='mx-auto h-[65px] flex justify-end max-w-[1200px]'>
-        <ul className={`justify-end flex items-center ${isOpen ? 'flex' : 'hidden'} md:flex`}>
+        <ul className={`text-sm justify-end flex items-center ${isOpen ? 'flex' : 'hidden'} md:flex md:text-base`}>
             <li className='mx-2 text-white'>
                 <Link href='/'>
                     <a className='transition-all duration-250 hover:text-dark-700'>
