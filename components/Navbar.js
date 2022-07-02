@@ -10,36 +10,36 @@ return (
    <header className='bg-blue-400'>
     <nav className='mx-auto h-[65px] flex justify-end max-w-[1200px]'>
         <ul className={`text-sm justify-end flex items-center ${isOpen ? 'flex' : 'hidden'} md:flex md:text-base`}>
-            <li className='mx-2 text-white'>
+            <li className='mx-3 text-white'>
                 <Link href='/'>
                     <a className='transition-all duration-250 hover:text-dark-700'>
                         Home
                     </a>
                 </Link>
             </li>
-            <li className='mx-2 text-white'>
-                <Link href='/projects' >
+            <li className='mx-3 text-white'>
+                <Link href='#projects' >
                     <a className='transition-all duration-250 hover:text-dark-700'>
                         Projects
                     </a>
                 </Link>
             </li>
-            <li className='mx-2 text-white'>
-                <Link href='/skills'>
+            <li className='mx-3 text-white'>
+                <Link href='#skills'>
                     <a className='transition-all duration-250 hover:text-dark-700'>
                         Skills
                     </a>
                 </Link>
             </li>
-            <li className='mx-2 text-white'>
-                <Link href='/about'>
+            <li className='mx-3 text-white'>
+                <Link href='#about'>
                     <a className='transition-all duration-250 hover:text-dark-700'>
                         About
                     </a>
                 </Link>
             </li>
-            <li className='mx-2 mr-[15px] text-white'>
-                <Link href='/contact'>
+            <li className='mx-3 mr-[15px] text-white'>
+                <Link href='#contact'>
                     <a className='transition-all duration-250 hover:text-dark-700'>
                         Contact
                     </a>
