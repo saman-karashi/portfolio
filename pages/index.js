@@ -1,5 +1,6 @@
 import Projects from '../components/Projects'
-import Hero from '../components/Hero'
+import Hero from '../components/Hero';
+import Skills from '../components/Skills';
 
 export default function Home() {
   return (
@@ -9,6 +10,9 @@ export default function Home() {
      </section>
      <section id='projects' className='my-16 overflow-hidden'>
         <Projects />
+     </section>
+     <section id='skills' className='my-16 px-5'>
+        <Skills />
      </section>
     </>
   )
