@@ -18,7 +18,7 @@ const Hero = () => {
         </Link>
         <Link href='#contact' >
         <button className='ml-5 py-2 text-sm px-4 bg-dark-700 text-white font-bold transition-all border-2 border-transparent duration-250 hover:text-dark-700 hover:bg-white hover:border-b-dark-700 hover:border-l-dark-700'>
-            Contact me
+           Get in touch
         </button>
         </Link>
     </div> 

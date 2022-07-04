@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import {FaTimes} from 'react-icons/fa'
 import {GiHamburgerMenu} from 'react-icons/gi'
-import {useState,useEffect} from 'react';
+import {useState} from 'react';
 
 const Navbar = () => {
 const [isOpen,setIsOpen] = useState(false);
@@ -10,35 +10,35 @@ return (
    <header className='bg-blue-400'>
     <nav className='mx-auto h-[65px] flex justify-end max-w-[1200px]'>
         <ul className={`text-sm justify-end flex items-center ${isOpen ? 'flex' : 'hidden'} md:flex md:text-base`}>
-            <li className='mx-3 text-white'>
+            <li className='mx-2 text-white md:mx-3'>
                 <Link href='/'>
                     <a className='transition-all duration-250 hover:text-dark-700'>
                         Home
                     </a>
                 </Link>
             </li>
-            <li className='mx-3 text-white'>
+            <li className='mx-2 text-white md:mx-3'>
                 <Link href='#projects' >
                     <a className='transition-all duration-250 hover:text-dark-700'>
                         Projects
                     </a>
                 </Link>
             </li>
-            <li className='mx-3 text-white'>
+            <li className='mx-2 text-white md:mx-3'>
                 <Link href='#skills'>
                     <a className='transition-all duration-250 hover:text-dark-700'>
                         Skills
                     </a>
                 </Link>
             </li>
-            <li className='mx-3 text-white'>
+            <li className='mx-2 text-white md:mx-3'>
                 <Link href='#about'>
                     <a className='transition-all duration-250 hover:text-dark-700'>
                         About
                     </a>
                 </Link>
             </li>
-            <li className='mx-3 mr-[15px] text-white'>
+            <li className='mx-2 mr-[15px] text-white md:mx-3'>
                 <Link href='#contact'>
                     <a className='transition-all duration-250 hover:text-dark-700'>
                         Contact
