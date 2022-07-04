@@ -101,7 +101,7 @@ const Contact = () => {
             value={message}
             onChange={e => setMessage(e.target.value)}
             placeholder='Write your message'
-            className='p-2 resize-none border border-rounded w-full focus:outline-none min-h-[400px]'
+            className='p-2 resize-none border border-rounded w-full focus:outline-none sm2x:min-h-[300px] md:min-h-[400px]'
           />
         </div>
         <button

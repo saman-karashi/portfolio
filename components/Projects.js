@@ -11,7 +11,7 @@ const Projects = () => {
     <section id='projects' className='my-16 overflow-hidden'>
         <h1 className='mb-10 text-center font-bold text-2xl'>Projects</h1>
          <div className='grid grid-cols-1 gap-y-3 md:grid-cols-3 sm2x:px-5 md:gap-x-3 md:px-0'>
-            <div className=' mx-auto shadow-lg border rounded-xl overflow-hidden md:w-full sm:w-[350px] sm2x:w-[300px]'>
+            <div className=' mx-auto shadow-lg border rounded-xl overflow-hidden md:w-full sm:w-[350px] sm2x:w-[250px]'>
                 <Image src={snakeImg} className='object-cover'/>
                 <div className='px-2'>
                 <h1 className='my-2'>Snake game is developed by pure javascript.</h1>
@@ -25,7 +25,7 @@ const Projects = () => {
                 </Link>
                 </div>
             </div>
-            <div className='mx-auto shadow-lg border rounded-xl overflow-hidden md:w-full sm:w-[350px] sm2x:w-[300px]'>
+            <div className='mx-auto shadow-lg border rounded-xl overflow-hidden md:w-full sm:w-[350px] sm2x:w-[250px]'>
                 <Image src={movieOmdbImg} className="object-cover" height={1080} />
                 <div className='px-2'>
                 <h1 className='my-2'>Full stack movie app is developed by react js.</h1>
@@ -40,7 +40,7 @@ const Projects = () => {
                 </div>
             </div>
  
-            <div className='mx-auto shadow-lg border rounded-xl overflow-hidden md:w-full sm:w-[350px] sm2x:w-[300px]'>
+            <div className='mx-auto shadow-lg border rounded-xl overflow-hidden md:w-full sm:w-[350px] sm2x:w-[250px]'>
                 <Image src={pingPongImg} className="object-cover" height={600}/>
                 <div className='px-2'>
                 <h1 className='my-2'>Ping pong game is developed by javascript.</h1>
@@ -54,7 +54,7 @@ const Projects = () => {
                 </Link>
                 </div>
             </div>
-            <div className='mx-auto shadow-lg border rounded-xl overflow-hidden md:w-full sm:w-[350px] sm2x:w-[300px]'>
+            <div className='mx-auto shadow-lg border rounded-xl overflow-hidden md:w-full sm:w-[350px] sm2x:w-[250px]'>
                 <Image src={weatherImg} className="object-cover" height={800}/>
                 <div className='px-2'>
                 <h1 className='my-2'>Weather app is developed by pure javascript.</h1>
