@@ -1,4 +1,4 @@
-import { useState ,useEffect} from 'react';
+import { useState} from 'react';
 import { useRouter } from 'next/router';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -18,7 +18,7 @@ const Contact = () => {
     clearErrors,
   } = useForm({ mode: 'all',defaultValues:{email:'',fullName:''}});
 
-    const onSubmitHandler = async (data) => {
+    const onSubmitHandler = async () => {
     const userData = { name, email, message };
 
     try {

@@ -8,7 +8,7 @@ const [isOpen,setIsOpen] = useState(false);
 
 return (
    <header className='bg-blue-400'>
-    <nav className='mx-auto h-[65px] flex justify-end max-w-[1200px]'>
+    <nav className='mx-auto h-[65px] max-w-[1200px] flex items-center justify-end'>
         <ul className={`text-sm justify-end flex items-center ${isOpen ? 'flex' : 'hidden'} md:flex md:text-base`}>
             <li className='mx-2 text-white md:mx-3'>
                 <Link href='/'>
@@ -60,7 +60,6 @@ return (
         }
 
     </nav>
-
    </header>
   )
 }
