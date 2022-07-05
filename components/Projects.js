@@ -1,10 +1,13 @@
-import snakeImg from '../public/snake.png';
-import movieOmdbImg from '../public/movieOmdb.png'
-import pingPongImg from '../public/pingPong.png';
-import weatherImg from '../public/weather.png'
 import Image from 'next/image';
 import {FaChevronRight} from 'react-icons/fa'
 import Link from 'next/link'
+import {
+snakeImg,
+movieOmdbImg,
+pingPongImg,
+weatherImg
+} from '../helper/helper'
+
 
 const Projects = () => {
   return (
