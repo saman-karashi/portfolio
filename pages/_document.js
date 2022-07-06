@@ -10,7 +10,6 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
           <link rel='favicon' href="../public/favicon.ico" />
-          <title>Saman</title>
         </Head>
         <body>
           <Main />

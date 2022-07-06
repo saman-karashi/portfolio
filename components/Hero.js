@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section className="flex flex-row justify-center items-center flex-wrap md:flex-nowrap md:justify-between">
     <div className='md:order-1 md:basis-[70%]'>
-        <Image src={heroImage}  className="object-cover w-[100%] h-[100%]" />
+        <Image src={heroImage}  className="object-cover w-[100%] h-[100%]" alt="hero" />
     </div> 
     <div className=' text-center mt-8 md:mt-0 md:order-0 md:pl-2'>
     <h1 className='uppercase font-bold text-xl md:text-2xl md:text-left'>hi,i am saman <br/> karashi</h1>
