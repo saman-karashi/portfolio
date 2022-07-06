@@ -68,6 +68,7 @@ const Skills = () => {
                 src={icon}
                 height={'100%'}
                 width={'100%'}
+                alt={name}
               />
               <h1 className='font-bold text-xl my-2'>{name}</h1>
             </div>
